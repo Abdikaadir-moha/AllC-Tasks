@@ -61,6 +61,8 @@
             RadioButtonProgToolStripMenuItem = new ToolStripMenuItem();
             CheckBoxProgToolStripMenuItem = new ToolStripMenuItem();
             Tutorial_4_5ToolStripMenuItem = new ToolStripMenuItem();
+            MonthCheckToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_6ToolStripMenuItem = new ToolStripMenuItem();
             Ch_ass_toolStripMenuItem3 = new ToolStripMenuItem();
             Ass_One_ToolStripMenuItem = new ToolStripMenuItem();
             Translator_TSMI = new ToolStripMenuItem();
@@ -88,10 +90,33 @@
             PaintJobEstimatorToolStripMenuItem = new ToolStripMenuItem();
             PropertyTaxToolStripMenuItem = new ToolStripMenuItem();
             StadiumSeatingToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripMenuItem();
+            toolStripMenuItem3 = new ToolStripMenuItem();
+            toolStripMenuItem4 = new ToolStripMenuItem();
+            toolStripMenuItem5 = new ToolStripMenuItem();
+            toolStripMenuItem6 = new ToolStripMenuItem();
+            toolStripMenuItem7 = new ToolStripMenuItem();
+            toolStripMenuItem8 = new ToolStripMenuItem();
+            toolStripMenuItem9 = new ToolStripMenuItem();
+            toolStripMenuItem10 = new ToolStripMenuItem();
+            toolStripMenuItem11 = new ToolStripMenuItem();
+            toolStripMenuItem12 = new ToolStripMenuItem();
+            toolStripMenuItem13 = new ToolStripMenuItem();
             assignmentToolStripMenuItem = new ToolStripMenuItem();
+            RNConverterToolStripMenuItem = new ToolStripMenuItem();
+            calcEdingToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem14 = new ToolStripMenuItem();
+            toolStripMenuItem15 = new ToolStripMenuItem();
+            calcEndingBalanceToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem17 = new ToolStripMenuItem();
+            toolStripMenuItem16 = new ToolStripMenuItem();
+            toolStripMenuItem18 = new ToolStripMenuItem();
+            toolStripMenuItem19 = new ToolStripMenuItem();
+            openFileDialogProgToolStripMenuItem = new ToolStripMenuItem();
+            semulatingToolStripMenuItem = new ToolStripMenuItem();
+            loadEventHandlerToolStripMenuItem = new ToolStripMenuItem();
             ProfileToolStripMenuIte = new ToolStripMenuItem();
-            MonthCheckToolStripMenuItem = new ToolStripMenuItem();
-            Tutorial_4_6ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -106,7 +131,7 @@
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(8, 2, 0, 2);
-            menuStrip1.Size = new Size(1661, 52);
+            menuStrip1.Size = new Size(1022, 52);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -328,10 +353,22 @@
             Tutorial_4_5ToolStripMenuItem.Size = new Size(402, 38);
             Tutorial_4_5ToolStripMenuItem.Text = "Tutorial 4-5";
             // 
+            // MonthCheckToolStripMenuItem
+            // 
+            MonthCheckToolStripMenuItem.Name = "MonthCheckToolStripMenuItem";
+            MonthCheckToolStripMenuItem.Size = new Size(402, 38);
+            MonthCheckToolStripMenuItem.Text = "Month check Prog";
+            // 
+            // Tutorial_4_6ToolStripMenuItem
+            // 
+            Tutorial_4_6ToolStripMenuItem.Name = "Tutorial_4_6ToolStripMenuItem";
+            Tutorial_4_6ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_6ToolStripMenuItem.Text = "Tutorial 4-6";
+            // 
             // Ch_ass_toolStripMenuItem3
             // 
             Ch_ass_toolStripMenuItem3.BackColor = Color.Transparent;
-            Ch_ass_toolStripMenuItem3.DropDownItems.AddRange(new ToolStripItem[] { Ass_One_ToolStripMenuItem, assignmentTwoToolStripMenuItem, assignmentThreeToolStripMenuItem, assignmentToolStripMenuItem });
+            Ch_ass_toolStripMenuItem3.DropDownItems.AddRange(new ToolStripItem[] { Ass_One_ToolStripMenuItem, assignmentTwoToolStripMenuItem, assignmentThreeToolStripMenuItem, toolStripMenuItem1, assignmentToolStripMenuItem });
             Ch_ass_toolStripMenuItem3.ForeColor = Color.Black;
             Ch_ass_toolStripMenuItem3.Name = "Ch_ass_toolStripMenuItem3";
             Ch_ass_toolStripMenuItem3.Size = new Size(258, 48);
@@ -341,7 +378,7 @@
             // 
             Ass_One_ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Translator_TSMI, Pic_box_toolStripMenuItem, Flag_toolStripMenuItem });
             Ass_One_ToolStripMenuItem.Name = "Ass_One_ToolStripMenuItem";
-            Ass_One_ToolStripMenuItem.Size = new Size(262, 38);
+            Ass_One_ToolStripMenuItem.Size = new Size(270, 38);
             Ass_One_ToolStripMenuItem.Text = "Assignment &1";
             // 
             // Translator_TSMI
@@ -369,7 +406,7 @@
             // 
             assignmentTwoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { LatinTrnlrProgToolStripMenuItem, CheckNumImgProgToolStripMenuItem, CardIdentifierProgToolStripMenuItem, JokeAndPunchLineProgToolStripMenuItem, Sh_H_CoinProgToolStripMenuItem, Sh_H_StarToolStripMenuItem });
             assignmentTwoToolStripMenuItem.Name = "assignmentTwoToolStripMenuItem";
-            assignmentTwoToolStripMenuItem.Size = new Size(262, 38);
+            assignmentTwoToolStripMenuItem.Size = new Size(270, 38);
             assignmentTwoToolStripMenuItem.Text = "Assignment &2";
             // 
             // LatinTrnlrProgToolStripMenuItem
@@ -418,7 +455,7 @@
             // 
             assignmentThreeToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { NameFormatterToolStripMenuItem, TipTaxAndTotalToolStripMenuItem, DistanceTraveledToolStripMenuItem, SalesTaxAndTotalToolStripMenuItem, CelsiusAndFahrenheitTemperatureConverterToolStripMenuItem, BodyMassIndexToolStripMenuItem, SentenceBuilderToolStripMenuItem, HowMuchInsuranceToolStripMenuItem, CookieCaloriesToolStripMenuItem, CalorieCounterToolStripMenuItem, AutomobileCostsToolStripMenuItem, PaintJobEstimatorToolStripMenuItem, PropertyTaxToolStripMenuItem, StadiumSeatingToolStripMenuItem });
             assignmentThreeToolStripMenuItem.Name = "assignmentThreeToolStripMenuItem";
-            assignmentThreeToolStripMenuItem.Size = new Size(262, 38);
+            assignmentThreeToolStripMenuItem.Size = new Size(270, 38);
             assignmentThreeToolStripMenuItem.Text = "Assignment &3";
             // 
             // NameFormatterToolStripMenuItem
@@ -519,11 +556,165 @@
             StadiumSeatingToolStripMenuItem.Text = "Stadium Seating";
             StadiumSeatingToolStripMenuItem.Click += StadiumSeatingToolStripMenuItem_Click;
             // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6, toolStripMenuItem7, toolStripMenuItem8, toolStripMenuItem9, toolStripMenuItem10, toolStripMenuItem11, toolStripMenuItem12, toolStripMenuItem13 });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(270, 38);
+            toolStripMenuItem1.Text = "Assignment &4";
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(401, 38);
+            toolStripMenuItem2.Text = "Roman Numeral Converter";
+            // 
+            // toolStripMenuItem3
+            // 
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new Size(401, 38);
+            toolStripMenuItem3.Text = "Mass and Weight";
+            // 
+            // toolStripMenuItem4
+            // 
+            toolStripMenuItem4.Name = "toolStripMenuItem4";
+            toolStripMenuItem4.Size = new Size(401, 38);
+            toolStripMenuItem4.Text = "Magic Dates";
+            // 
+            // toolStripMenuItem5
+            // 
+            toolStripMenuItem5.Name = "toolStripMenuItem5";
+            toolStripMenuItem5.Size = new Size(401, 38);
+            toolStripMenuItem5.Text = "Color Mixer";
+            // 
+            // toolStripMenuItem6
+            // 
+            toolStripMenuItem6.Name = "toolStripMenuItem6";
+            toolStripMenuItem6.Size = new Size(401, 38);
+            toolStripMenuItem6.Text = "Distance Converter";
+            // 
+            // toolStripMenuItem7
+            // 
+            toolStripMenuItem7.Name = "toolStripMenuItem7";
+            toolStripMenuItem7.Size = new Size(401, 38);
+            toolStripMenuItem7.Text = "Book Club Points";
+            // 
+            // toolStripMenuItem8
+            // 
+            toolStripMenuItem8.Name = "toolStripMenuItem8";
+            toolStripMenuItem8.Size = new Size(401, 38);
+            toolStripMenuItem8.Text = "Software Sales";
+            // 
+            // toolStripMenuItem9
+            // 
+            toolStripMenuItem9.Name = "toolStripMenuItem9";
+            toolStripMenuItem9.Size = new Size(401, 38);
+            toolStripMenuItem9.Text = "Body Mass Index Program";
+            // 
+            // toolStripMenuItem10
+            // 
+            toolStripMenuItem10.Name = "toolStripMenuItem10";
+            toolStripMenuItem10.Size = new Size(401, 38);
+            toolStripMenuItem10.Text = "Change for a Dollar Game";
+            // 
+            // toolStripMenuItem11
+            // 
+            toolStripMenuItem11.Name = "toolStripMenuItem11";
+            toolStripMenuItem11.Size = new Size(401, 38);
+            toolStripMenuItem11.Text = "Fat Percentage Calculator";
+            // 
+            // toolStripMenuItem12
+            // 
+            toolStripMenuItem12.Name = "toolStripMenuItem12";
+            toolStripMenuItem12.Size = new Size(401, 38);
+            toolStripMenuItem12.Text = "Time Calculator";
+            // 
+            // toolStripMenuItem13
+            // 
+            toolStripMenuItem13.Name = "toolStripMenuItem13";
+            toolStripMenuItem13.Size = new Size(401, 38);
+            toolStripMenuItem13.Text = "Workshop Selector";
+            // 
             // assignmentToolStripMenuItem
             // 
+            assignmentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { RNConverterToolStripMenuItem, calcEdingToolStripMenuItem, toolStripMenuItem14, toolStripMenuItem15, calcEndingBalanceToolStripMenuItem, toolStripMenuItem17, toolStripMenuItem16, toolStripMenuItem18, toolStripMenuItem19, openFileDialogProgToolStripMenuItem, semulatingToolStripMenuItem, loadEventHandlerToolStripMenuItem });
             assignmentToolStripMenuItem.Name = "assignmentToolStripMenuItem";
-            assignmentToolStripMenuItem.Size = new Size(262, 38);
-            assignmentToolStripMenuItem.Text = "Assignment &4";
+            assignmentToolStripMenuItem.Size = new Size(270, 38);
+            assignmentToolStripMenuItem.Text = "Assignment &5";
+            assignmentToolStripMenuItem.Visible = false;
+            // 
+            // RNConverterToolStripMenuItem
+            // 
+            RNConverterToolStripMenuItem.Name = "RNConverterToolStripMenuItem";
+            RNConverterToolStripMenuItem.Size = new Size(366, 38);
+            RNConverterToolStripMenuItem.Text = "Name List Application";
+            RNConverterToolStripMenuItem.Click += RNConverterToolStripMenuItem_Click;
+            // 
+            // calcEdingToolStripMenuItem
+            // 
+            calcEdingToolStripMenuItem.Name = "calcEdingToolStripMenuItem";
+            calcEdingToolStripMenuItem.Size = new Size(366, 38);
+            calcEdingToolStripMenuItem.Text = "Tutorial 5-1";
+            // 
+            // toolStripMenuItem14
+            // 
+            toolStripMenuItem14.Name = "toolStripMenuItem14";
+            toolStripMenuItem14.Size = new Size(366, 38);
+            toolStripMenuItem14.Text = "Tutorial 5-2";
+            // 
+            // toolStripMenuItem15
+            // 
+            toolStripMenuItem15.Name = "toolStripMenuItem15";
+            toolStripMenuItem15.Size = new Size(366, 38);
+            toolStripMenuItem15.Text = "Tutorial 5-3";
+            // 
+            // calcEndingBalanceToolStripMenuItem
+            // 
+            calcEndingBalanceToolStripMenuItem.Name = "calcEndingBalanceToolStripMenuItem";
+            calcEndingBalanceToolStripMenuItem.Size = new Size(366, 38);
+            calcEndingBalanceToolStripMenuItem.Text = "Tutorial 5-4";
+            // 
+            // toolStripMenuItem17
+            // 
+            toolStripMenuItem17.Name = "toolStripMenuItem17";
+            toolStripMenuItem17.Size = new Size(366, 38);
+            toolStripMenuItem17.Text = "Tutorial 5-5";
+            // 
+            // toolStripMenuItem16
+            // 
+            toolStripMenuItem16.Name = "toolStripMenuItem16";
+            toolStripMenuItem16.Size = new Size(366, 38);
+            toolStripMenuItem16.Text = "Tutorial 5-6";
+            // 
+            // toolStripMenuItem18
+            // 
+            toolStripMenuItem18.Name = "toolStripMenuItem18";
+            toolStripMenuItem18.Size = new Size(366, 38);
+            toolStripMenuItem18.Text = "Tutorial 5-7";
+            // 
+            // toolStripMenuItem19
+            // 
+            toolStripMenuItem19.Name = "toolStripMenuItem19";
+            toolStripMenuItem19.Size = new Size(366, 38);
+            toolStripMenuItem19.Text = "OpenFileDialog Control";
+            // 
+            // openFileDialogProgToolStripMenuItem
+            // 
+            openFileDialogProgToolStripMenuItem.Name = "openFileDialogProgToolStripMenuItem";
+            openFileDialogProgToolStripMenuItem.Size = new Size(366, 38);
+            openFileDialogProgToolStripMenuItem.Text = "SaveFileDialog Control";
+            // 
+            // semulatingToolStripMenuItem
+            // 
+            semulatingToolStripMenuItem.Name = "semulatingToolStripMenuItem";
+            semulatingToolStripMenuItem.Size = new Size(366, 38);
+            semulatingToolStripMenuItem.Text = "Simulating Coin Tosses";
+            // 
+            // loadEventHandlerToolStripMenuItem
+            // 
+            loadEventHandlerToolStripMenuItem.Name = "loadEventHandlerToolStripMenuItem";
+            loadEventHandlerToolStripMenuItem.Size = new Size(366, 38);
+            loadEventHandlerToolStripMenuItem.Text = "Load Event Handler";
             // 
             // ProfileToolStripMenuIte
             // 
@@ -534,24 +725,12 @@
             ProfileToolStripMenuIte.Text = "&Portfolio";
             ProfileToolStripMenuIte.Click += ProfileToolStripMenuIte_Click;
             // 
-            // MonthCheckToolStripMenuItem
-            // 
-            MonthCheckToolStripMenuItem.Name = "MonthCheckToolStripMenuItem";
-            MonthCheckToolStripMenuItem.Size = new Size(402, 38);
-            MonthCheckToolStripMenuItem.Text = "Month check Prog";
-            // 
-            // Tutorial_4_6ToolStripMenuItem
-            // 
-            Tutorial_4_6ToolStripMenuItem.Name = "Tutorial_4_6ToolStripMenuItem";
-            Tutorial_4_6ToolStripMenuItem.Size = new Size(402, 38);
-            Tutorial_4_6ToolStripMenuItem.Text = "Tutorial 4-6";
-            // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DodgerBlue;
-            ClientSize = new Size(1661, 691);
+            ClientSize = new Size(1022, 802);
             Controls.Add(menuStrip1);
             Margin = new Padding(4);
             Name = "MainMenu";
@@ -629,5 +808,30 @@
         private ToolStripMenuItem Tutorial_4_5ToolStripMenuItem;
         private ToolStripMenuItem MonthCheckToolStripMenuItem;
         private ToolStripMenuItem Tutorial_4_6ToolStripMenuItem;
+        private ToolStripMenuItem RNConverterToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem toolStripMenuItem4;
+        private ToolStripMenuItem toolStripMenuItem5;
+        private ToolStripMenuItem toolStripMenuItem6;
+        private ToolStripMenuItem toolStripMenuItem7;
+        private ToolStripMenuItem toolStripMenuItem8;
+        private ToolStripMenuItem toolStripMenuItem9;
+        private ToolStripMenuItem toolStripMenuItem10;
+        private ToolStripMenuItem toolStripMenuItem11;
+        private ToolStripMenuItem toolStripMenuItem12;
+        private ToolStripMenuItem toolStripMenuItem13;
+        private ToolStripMenuItem calcEdingToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem14;
+        private ToolStripMenuItem toolStripMenuItem15;
+        private ToolStripMenuItem toolStripMenuItem16;
+        private ToolStripMenuItem calcEndingBalanceToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem17;
+        private ToolStripMenuItem toolStripMenuItem18;
+        private ToolStripMenuItem toolStripMenuItem19;
+        private ToolStripMenuItem openFileDialogProgToolStripMenuItem;
+        private ToolStripMenuItem semulatingToolStripMenuItem;
+        private ToolStripMenuItem loadEventHandlerToolStripMenuItem;
     }
 }

@@ -1,3 +1,4 @@
+using AllC_Tasks.Assignment4;
 using AllC_Tasks.Ex_Ch2;
 using assignment2;
 using Assignments1;
@@ -258,6 +259,78 @@ namespace AllC_Tasks
         {
             multiple_Button_controls multiple_Button_ControlsForm = new();
             multiple_Button_ControlsForm.Show();
+        }
+
+        private void RNConverterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RomanNumeralConverter romanNumeralConverterfrom = new();
+            romanNumeralConverterfrom.Show();
+        }
+
+        private void MassWeightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mass_and_Weight mass_And_Weightform = new();
+            mass_And_Weightform.Show();
+        }
+
+        private void MagicDatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MagicDates magicDatesform = new();
+            magicDatesform.Show();
+        }
+
+        private void ColorMixerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorMix colorMixform = new();
+            colorMixform.Show();
+        }
+
+        private void DConverterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DistanceConverter distanceConverterform = new();
+            distanceConverterform.Show();
+        }
+
+        private void BookClubPointsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Book_Club_Points book_Club_Pointsform = new();
+            book_Club_Pointsform.Show();
+        }
+
+        private void SoftwareSalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Software_Sales software_Salesform = new();
+            software_Salesform.Show();
+        }
+
+        private void BodyMIndexToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BodyMassIndex bodyMassIndexform = new();
+            bodyMassIndexform.Show();
+        }
+
+        private void ChangeDollarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeForDollar changeForDollarform = new();
+            changeForDollarform.Show();
+        }
+
+        private void FatPerCalcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Fat_Percentage_Calculator fat_Percentage_CalculatorForm = new();
+            fat_Percentage_CalculatorForm.Show();
+        }
+
+        private void TimeCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TimeCalculator TimeCalculatorform = new();
+            TimeCalculatorform.Show();
+        }
+
+        private void WorkshopSelectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WorkshopSelectorcs workshopSelectorcForm = new();
+            workshopSelectorcForm.Show();
         }
 
         

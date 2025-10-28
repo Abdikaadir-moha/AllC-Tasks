@@ -160,10 +160,10 @@
             // 
             // HeadAndTail
             // 
-            AutoScaleDimensions = new SizeF(9F, 22F);
+            AutoScaleDimensions = new SizeF(11F, 27F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
-            ClientSize = new Size(1323, 810);
+            ClientSize = new Size(1256, 810);
             Controls.Add(TailpictureBox);
             Controls.Add(HeadpictureBox);
             Controls.Add(ShowTailBtn);
@@ -176,6 +176,7 @@
             Controls.Add(Header);
             Font = new Font("Roboto Condensed", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Name = "HeadAndTail";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HeadAndTail";
             Load += HeadAndTail_Load;
             ((System.ComponentModel.ISupportInitialize)HeadpictureBox).EndInit();
