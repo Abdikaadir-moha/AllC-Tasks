@@ -10,11 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Assignment5\**" />
     <Compile Remove="Ch4\**" />
-    <EmbeddedResource Remove="Assignment5\**" />
     <EmbeddedResource Remove="Ch4\**" />
-    <None Remove="Assignment5\**" />
     <None Remove="Ch4\**" />
   </ItemGroup>
 

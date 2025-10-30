@@ -1,4 +1,5 @@
 using AllC_Tasks.Assignment4;
+using AllC_Tasks.Assignment5;
 using AllC_Tasks.Ex_Ch2;
 using assignment2;
 using Assignments1;
@@ -261,78 +262,136 @@ namespace AllC_Tasks
             multiple_Button_ControlsForm.Show();
         }
 
-        private void RNConverterToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CaloriesBurnedTrackerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RomanNumeralConverter romanNumeralConverterfrom = new();
-            romanNumeralConverterfrom.Show();
+            Calories_Burned calories_BurnedForm = new();
+            calories_BurnedForm.Show();
+        }
+        //Chapter 4 Assignments
+        private void RomanNuturalToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RomanNumeralConverter romanNumeralConverterform = new();
+            romanNumeralConverterform.Show();
         }
 
-        private void MassWeightToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Mass_and_WeightToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             Mass_and_Weight mass_And_Weightform = new();
             mass_And_Weightform.Show();
         }
 
-        private void MagicDatesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Magic_DatestoolStripMenuItem4_Click(object sender, EventArgs e)
         {
             MagicDates magicDatesform = new();
             magicDatesform.Show();
         }
 
-        private void ColorMixerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ColorMixerToolStripMenuItem5_Click(object sender, EventArgs e)
         {
             ColorMix colorMixform = new();
             colorMixform.Show();
         }
 
-        private void DConverterToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Distance_ConverterToolStripMenuItem6_Click(object sender, EventArgs e)
         {
             DistanceConverter distanceConverterform = new();
             distanceConverterform.Show();
         }
 
-        private void BookClubPointsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Book_Club_PointsToolStripMenuItem7_Click(object sender, EventArgs e)
         {
             Book_Club_Points book_Club_Pointsform = new();
             book_Club_Pointsform.Show();
         }
 
-        private void SoftwareSalesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Software_SalesToolStripMenuItem8_Click(object sender, EventArgs e)
         {
             Software_Sales software_Salesform = new();
             software_Salesform.Show();
         }
 
-        private void BodyMIndexToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BodyMassToolStripMenuItem9_Click(object sender, EventArgs e)
         {
             BodyMassIndex bodyMassIndexform = new();
             bodyMassIndexform.Show();
         }
 
-        private void ChangeDollarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ChangeForDollarToolStripMenuItem10_Click(object sender, EventArgs e)
         {
             ChangeForDollar changeForDollarform = new();
             changeForDollarform.Show();
         }
 
-        private void FatPerCalcToolStripMenuItem_Click(object sender, EventArgs e)
+        private void FatPercentageToolStripMenuItem11_Click(object sender, EventArgs e)
         {
             Fat_Percentage_Calculator fat_Percentage_CalculatorForm = new();
             fat_Percentage_CalculatorForm.Show();
         }
 
-        private void TimeCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TimeCalculatorToolStripMenuItem12_Click(object sender, EventArgs e)
         {
             TimeCalculator TimeCalculatorform = new();
             TimeCalculatorform.Show();
         }
 
-        private void WorkshopSelectorToolStripMenuItem_Click(object sender, EventArgs e)
+        private void WorkshopSelectorToolStripMenuItem13_Click(object sender, EventArgs e)
         {
             WorkshopSelectorcs workshopSelectorcForm = new();
             workshopSelectorcForm.Show();
         }
+        //Chapter 5 Assignments
+        private void DistanceCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DistanceCalculator distanceCalculatorform = new();
+            distanceCalculatorform.Show();
+        }
 
-        
+        private void DistanceFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Distance_File distance_Fileform = new();
+            distance_Fileform.Show();
+        }
+
+        private void CelsiusToFahrenheitTableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Celsius_to_Fahrenheit_Table celsius_To_Fahrenheit_Tableform = new();
+            celsius_To_Fahrenheit_Tableform.Show();
+        }
+
+        private void PopulatioonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Population populationform = new();
+            populationform.Show();
+        }
+
+        private void PenniesForPayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pennies_for_Pay pennies_For_Payform = new();
+            pennies_For_Payform.Show();
+        }
+
+        private void OceanLevelsRiseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ocean_Levels ocean_LevelsForm = new();
+            ocean_LevelsForm.Show();
+        }
+
+        private void TuitionIncreaseProjectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tuition_Increase_Projection tuition_Increase_ProjectionForm = new();
+            tuition_Increase_ProjectionForm.Show();
+        }
+
+
+        private void DiceSimulatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Dice_Simulator dice_SimulatorForm = new();
+            dice_SimulatorForm.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
