@@ -73,7 +73,7 @@
             descriptionLabel.Location = new Point(61, 86);
             descriptionLabel.Name = "descriptionLabel";
             descriptionLabel.Size = new Size(554, 104);
-            descriptionLabel.TabIndex = 20;
+            descriptionLabel.TabIndex = 3;
             descriptionLabel.Text = "This program displays the projected tuition \r\nfor the next 5 years. The tuition starts at \r\n$6000 per semester and increases by 2% each year.";
             // 
             // ClearBtn
@@ -94,7 +94,7 @@
             ClearBtn.Name = "ClearBtn";
             ClearBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
             ClearBtn.Size = new Size(156, 58);
-            ClearBtn.TabIndex = 23;
+            ClearBtn.TabIndex = 1;
             ClearBtn.Text = "Clear";
             ClearBtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             ClearBtn.Click += ClearBtn_Click;
@@ -117,7 +117,7 @@
             CalculateButton.Name = "CalculateButton";
             CalculateButton.ShadowDecoration.CustomizableEdges = customizableEdges6;
             CalculateButton.Size = new Size(143, 58);
-            CalculateButton.TabIndex = 22;
+            CalculateButton.TabIndex = 0;
             CalculateButton.Text = "Calculate";
             CalculateButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             CalculateButton.Click += CalculateButton_Click;

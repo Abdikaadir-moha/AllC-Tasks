@@ -28,89 +28,120 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox2 = new GroupBox();
-            clearbutton = new Button();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             outputListBox = new ListBox();
-            displaybutton = new Button();
-            Exitbutton = new Button();
-            groupBox2.SuspendLayout();
+            ClearButton = new Guna.UI2.WinForms.Guna2Button();
+            CalculateButton = new Guna.UI2.WinForms.Guna2Button();
+            headerPanel = new Guna.UI2.WinForms.Guna2Panel();
+            titleLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            headerPanel.SuspendLayout();
             SuspendLayout();
-            // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(clearbutton);
-            groupBox2.Controls.Add(outputListBox);
-            groupBox2.Controls.Add(displaybutton);
-            groupBox2.Controls.Add(Exitbutton);
-            groupBox2.Location = new Point(173, 40);
-            groupBox2.Margin = new Padding(4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(4);
-            groupBox2.Size = new Size(455, 370);
-            groupBox2.TabIndex = 91;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Spee Converter";
-            // 
-            // clearbutton
-            // 
-            clearbutton.BackColor = Color.DarkCyan;
-            clearbutton.Location = new Point(23, 286);
-            clearbutton.Name = "clearbutton";
-            clearbutton.Size = new Size(134, 66);
-            clearbutton.TabIndex = 84;
-            clearbutton.Text = "Clear";
-            clearbutton.UseVisualStyleBackColor = false;
-            clearbutton.Click += clearbutton_Click;
             // 
             // outputListBox
             // 
             outputListBox.FormattingEnabled = true;
             outputListBox.ItemHeight = 25;
-            outputListBox.Location = new Point(23, 41);
+            outputListBox.Location = new Point(40, 94);
             outputListBox.Name = "outputListBox";
             outputListBox.Size = new Size(414, 229);
             outputListBox.TabIndex = 82;
             // 
-            // displaybutton
+            // ClearButton
             // 
-            displaybutton.BackColor = Color.Cornsilk;
-            displaybutton.Location = new Point(303, 286);
-            displaybutton.Name = "displaybutton";
-            displaybutton.Size = new Size(134, 66);
-            displaybutton.TabIndex = 81;
-            displaybutton.Text = "Display Speeds";
-            displaybutton.UseVisualStyleBackColor = false;
-            displaybutton.Click += displaybutton_Click;
+            ClearButton.BorderColor = Color.Transparent;
+            ClearButton.BorderRadius = 8;
+            ClearButton.CustomBorderColor = Color.Transparent;
+            ClearButton.CustomizableEdges = customizableEdges1;
+            ClearButton.DisabledState.BorderColor = Color.DarkGray;
+            ClearButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            ClearButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            ClearButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            ClearButton.FillColor = Color.FromArgb(100, 181, 246);
+            ClearButton.FocusedColor = Color.Transparent;
+            ClearButton.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ClearButton.ForeColor = Color.White;
+            ClearButton.Location = new Point(258, 400);
+            ClearButton.Name = "ClearButton";
+            ClearButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            ClearButton.Size = new Size(156, 58);
+            ClearButton.TabIndex = 86;
+            ClearButton.Text = "Clear";
+            ClearButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            ClearButton.Click += ClearButton_Click;
             // 
-            // Exitbutton
+            // CalculateButton
             // 
-            Exitbutton.BackColor = Color.Crimson;
-            Exitbutton.Location = new Point(163, 286);
-            Exitbutton.Name = "Exitbutton";
-            Exitbutton.Size = new Size(134, 66);
-            Exitbutton.TabIndex = 80;
-            Exitbutton.Text = "Exit";
-            Exitbutton.UseVisualStyleBackColor = false;
-            Exitbutton.Click += Exitbutton_Click;
+            CalculateButton.BorderColor = Color.Transparent;
+            CalculateButton.BorderRadius = 8;
+            CalculateButton.CustomBorderColor = Color.Transparent;
+            CalculateButton.CustomizableEdges = customizableEdges3;
+            CalculateButton.DisabledState.BorderColor = Color.DarkGray;
+            CalculateButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            CalculateButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            CalculateButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            CalculateButton.FillColor = SystemColors.Highlight;
+            CalculateButton.FocusedColor = Color.Transparent;
+            CalculateButton.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            CalculateButton.ForeColor = Color.White;
+            CalculateButton.Location = new Point(75, 400);
+            CalculateButton.Name = "CalculateButton";
+            CalculateButton.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            CalculateButton.Size = new Size(143, 58);
+            CalculateButton.TabIndex = 85;
+            CalculateButton.Text = "Calculate";
+            CalculateButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            CalculateButton.Click += CalculateButton_Click;
+            // 
+            // headerPanel
+            // 
+            headerPanel.Controls.Add(titleLabel);
+            headerPanel.CustomizableEdges = customizableEdges5;
+            headerPanel.Location = new Point(0, 0);
+            headerPanel.Name = "headerPanel";
+            headerPanel.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            headerPanel.Size = new Size(507, 72);
+            headerPanel.TabIndex = 87;
+            // 
+            // titleLabel
+            // 
+            titleLabel.BackColor = Color.Transparent;
+            titleLabel.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            titleLabel.ForeColor = Color.Black;
+            titleLabel.Location = new Point(142, 12);
+            titleLabel.Name = "titleLabel";
+            titleLabel.Size = new Size(222, 40);
+            titleLabel.TabIndex = 6;
+            titleLabel.Text = "Speed Convertor";
+            titleLabel.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // SpeedConverter
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(groupBox2);
+            ClientSize = new Size(506, 472);
+            Controls.Add(headerPanel);
+            Controls.Add(ClearButton);
+            Controls.Add(CalculateButton);
+            Controls.Add(outputListBox);
             Name = "SpeedConverter";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SpeedConverter";
-            groupBox2.ResumeLayout(false);
+            Load += SpeedConverter_Load;
+            headerPanel.ResumeLayout(false);
+            headerPanel.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private GroupBox groupBox2;
         private ListBox outputListBox;
-        private Button displaybutton;
-        private Button Exitbutton;
-        private Button clearbutton;
+        private Guna.UI2.WinForms.Guna2Button ClearButton;
+        private Guna.UI2.WinForms.Guna2Button CalculateButton;
+        private Guna.UI2.WinForms.Guna2Panel headerPanel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel titleLabel;
     }
 }

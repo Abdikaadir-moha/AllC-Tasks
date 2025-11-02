@@ -28,25 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             groupBox2 = new GroupBox();
             nameListBox = new ListBox();
-            Exitbutton = new Button();
-            Clearsbutton = new Button();
-            addButton = new Button();
+            ClearBtn = new Guna.UI2.WinForms.Guna2Button();
+            AddingButton = new Guna.UI2.WinForms.Guna2Button();
+            headerPanel = new Guna.UI2.WinForms.Guna2Panel();
+            titleLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            messageLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             groupBox2.SuspendLayout();
+            headerPanel.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(nameListBox);
-            groupBox2.Controls.Add(Exitbutton);
-            groupBox2.Controls.Add(Clearsbutton);
-            groupBox2.Controls.Add(addButton);
-            groupBox2.Location = new Point(173, 40);
+            groupBox2.Location = new Point(61, 95);
             groupBox2.Margin = new Padding(4);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(4);
-            groupBox2.Size = new Size(455, 370);
+            groupBox2.Size = new Size(455, 250);
             groupBox2.TabIndex = 86;
             groupBox2.TabStop = false;
             groupBox2.Text = "Name List";
@@ -62,57 +68,115 @@
             nameListBox.TabIndex = 81;
             nameListBox.SelectedIndexChanged += nameListBox_SelectedIndexChanged;
             // 
-            // Exitbutton
+            // ClearBtn
             // 
-            Exitbutton.BackColor = Color.Crimson;
-            Exitbutton.Location = new Point(319, 244);
-            Exitbutton.Name = "Exitbutton";
-            Exitbutton.Size = new Size(112, 66);
-            Exitbutton.TabIndex = 80;
-            Exitbutton.Text = "Exit";
-            Exitbutton.UseVisualStyleBackColor = false;
-            Exitbutton.Click += Exitbutton_Click;
+            ClearBtn.BorderColor = Color.Transparent;
+            ClearBtn.BorderRadius = 8;
+            ClearBtn.CustomBorderColor = Color.Transparent;
+            ClearBtn.CustomizableEdges = customizableEdges1;
+            ClearBtn.DisabledState.BorderColor = Color.DarkGray;
+            ClearBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            ClearBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            ClearBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            ClearBtn.FillColor = Color.FromArgb(100, 181, 246);
+            ClearBtn.FocusedColor = Color.Transparent;
+            ClearBtn.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ClearBtn.ForeColor = Color.White;
+            ClearBtn.Location = new Point(331, 474);
+            ClearBtn.Name = "ClearBtn";
+            ClearBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            ClearBtn.Size = new Size(156, 58);
+            ClearBtn.TabIndex = 83;
+            ClearBtn.Text = "Clear";
+            ClearBtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            ClearBtn.Click += ClearBtn_Click;
             // 
-            // Clearsbutton
+            // AddingButton
             // 
-            Clearsbutton.BackColor = Color.CornflowerBlue;
-            Clearsbutton.Location = new Point(182, 244);
-            Clearsbutton.Name = "Clearsbutton";
-            Clearsbutton.Size = new Size(112, 66);
-            Clearsbutton.TabIndex = 79;
-            Clearsbutton.Text = "Clear";
-            Clearsbutton.UseVisualStyleBackColor = false;
-            Clearsbutton.Click += Clearsbutton_Click;
+            AddingButton.BorderColor = Color.Transparent;
+            AddingButton.BorderRadius = 8;
+            AddingButton.CustomBorderColor = Color.Transparent;
+            AddingButton.CustomizableEdges = customizableEdges3;
+            AddingButton.DisabledState.BorderColor = Color.DarkGray;
+            AddingButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            AddingButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            AddingButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            AddingButton.FillColor = SystemColors.Highlight;
+            AddingButton.FocusedColor = Color.Transparent;
+            AddingButton.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            AddingButton.ForeColor = Color.White;
+            AddingButton.Location = new Point(131, 474);
+            AddingButton.Name = "AddingButton";
+            AddingButton.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            AddingButton.Size = new Size(143, 58);
+            AddingButton.TabIndex = 82;
+            AddingButton.Text = "Add";
+            AddingButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            AddingButton.Click += AddingButton_Click;
             // 
-            // addButton
+            // headerPanel
             // 
-            addButton.BackColor = Color.Coral;
-            addButton.Location = new Point(38, 244);
-            addButton.Name = "addButton";
-            addButton.Size = new Size(134, 66);
-            addButton.TabIndex = 78;
-            addButton.Text = "Add";
-            addButton.UseVisualStyleBackColor = false;
-            addButton.Click += addButton_Click;
+            headerPanel.Controls.Add(titleLabel);
+            headerPanel.CustomizableEdges = customizableEdges5;
+            headerPanel.Location = new Point(0, 0);
+            headerPanel.Name = "headerPanel";
+            headerPanel.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            headerPanel.Size = new Size(608, 72);
+            headerPanel.TabIndex = 87;
+            // 
+            // titleLabel
+            // 
+            titleLabel.BackColor = Color.Transparent;
+            titleLabel.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            titleLabel.ForeColor = Color.Black;
+            titleLabel.Location = new Point(131, 12);
+            titleLabel.Name = "titleLabel";
+            titleLabel.Size = new Size(318, 40);
+            titleLabel.TabIndex = 6;
+            titleLabel.Text = "Number List  application ";
+            titleLabel.TextAlignment = ContentAlignment.MiddleCenter;
+            // 
+            // messageLabel
+            // 
+            messageLabel.AutoSize = false;
+            messageLabel.BackColor = Color.Transparent;
+            messageLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            messageLabel.Location = new Point(61, 380);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Padding = new Padding(2);
+            messageLabel.Size = new Size(459, 56);
+            messageLabel.TabIndex = 88;
+            messageLabel.Text = null;
+            messageLabel.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // NameList
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(604, 548);
+            Controls.Add(messageLabel);
+            Controls.Add(headerPanel);
+            Controls.Add(AddingButton);
+            Controls.Add(ClearBtn);
             Controls.Add(groupBox2);
             Name = "NameList";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "NameList";
+            Load += NameList_Load;
             groupBox2.ResumeLayout(false);
+            headerPanel.ResumeLayout(false);
+            headerPanel.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private GroupBox groupBox2;
-        private Button Exitbutton;
-        private Button Clearsbutton;
-        private Button addButton;
         private ListBox nameListBox;
+        private Guna.UI2.WinForms.Guna2Button ClearBtn;
+        private Guna.UI2.WinForms.Guna2Button AddingButton;
+        private Guna.UI2.WinForms.Guna2Panel headerPanel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel titleLabel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel messageLabel;
     }
 }

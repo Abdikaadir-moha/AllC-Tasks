@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AllC_Tasks;
 
 namespace Wholeproject
 {
@@ -17,7 +18,7 @@ namespace Wholeproject
             InitializeComponent();
         }
 
-        private void displaybutton_Click(object sender, EventArgs e)
+        private void CalculateButton_Click(object sender, EventArgs e)
         {
             try
             {
@@ -50,22 +51,24 @@ namespace Wholeproject
                 // Handle any unexpected runtime errors
                 MessageBox.Show("An unexpected error occurred: " + ex.Message);
             }
-
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Exitbutton_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void clearbutton_Click(object sender, EventArgs e)
+        private void ClearButton_Click(object sender, EventArgs e)
         {
             outputListBox.Items.Clear();
+        }
+
+        private void SpeedConverter_Load(object sender, EventArgs e)
+        {
+            BackColor = AppTheme.BackgroundColor;
+            headerPanel.FillColor = AppTheme.HeaderColor;
+            titleLabel.ForeColor = AppTheme.HeaderTextColor;
+
+            CalculateButton.FillColor = AppTheme.PrimaryButtonColor;
+            CalculateButton.ForeColor = Color.White;
+
+            ClearButton.FillColor = AppTheme.SecondaryButtonColor;
+            ClearButton.ForeColor = Color.White;
         }
     }
 }

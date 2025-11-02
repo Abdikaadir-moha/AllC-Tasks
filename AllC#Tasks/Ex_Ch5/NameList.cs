@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AllC_Tasks;
 
 namespace Wholeproject
 {
@@ -27,7 +28,7 @@ namespace Wholeproject
 
         }
 
-        private void addButton_Click(object sender, EventArgs e)
+        private void AddingButton_Click(object sender, EventArgs e)
         {
             nameListBox.Items.Add("Chris");
             nameListBox.Items.Add("Alicia");
@@ -35,14 +36,24 @@ namespace Wholeproject
             nameListBox.Items.Add("Holly");
         }
 
-        private void Clearsbutton_Click(object sender, EventArgs e)
+        private void ClearBtn_Click(object sender, EventArgs e)
         {
             nameListBox.Items.Clear();
         }
 
-        private void Exitbutton_Click(object sender, EventArgs e)
+        private void NameList_Load(object sender, EventArgs e)
         {
-            this.Close();
+            BackColor = AppTheme.BackgroundColor;
+            headerPanel.FillColor = AppTheme.HeaderColor;
+            titleLabel.ForeColor = AppTheme.HeaderTextColor;
+
+            AddingButton.FillColor = AppTheme.PrimaryButtonColor;
+            AddingButton.ForeColor = Color.White;
+
+            ClearBtn.FillColor = AppTheme.SecondaryButtonColor;
+            ClearBtn.ForeColor = Color.White;
+
+            messageLabel.ForeColor = AppTheme.TextColor;
         }
     }
 }

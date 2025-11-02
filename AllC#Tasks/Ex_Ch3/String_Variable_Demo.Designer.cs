@@ -55,20 +55,20 @@ namespace Wholeproject
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(81, 226);
+            label2.Location = new Point(52, 224);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(193, 25);
+            label2.Size = new Size(230, 30);
             label2.TabIndex = 9;
             label2.Text = "This is your full name:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(139, 109);
+            label1.Location = new Point(94, 112);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(192, 25);
+            label1.Size = new Size(227, 30);
             label1.TabIndex = 8;
             label1.Text = "Enter your first name:";
             // 
@@ -88,16 +88,16 @@ namespace Wholeproject
             firstNametextBox.Location = new Point(336, 109);
             firstNametextBox.Margin = new Padding(2);
             firstNametextBox.Name = "firstNametextBox";
-            firstNametextBox.Size = new Size(168, 31);
+            firstNametextBox.Size = new Size(168, 36);
             firstNametextBox.TabIndex = 0;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(139, 158);
+            label3.Location = new Point(99, 161);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(188, 25);
+            label3.Size = new Size(222, 30);
             label3.TabIndex = 13;
             label3.Text = "Enter your last name:";
             // 
@@ -106,12 +106,12 @@ namespace Wholeproject
             lastNametextBox.Location = new Point(336, 158);
             lastNametextBox.Margin = new Padding(2);
             lastNametextBox.Name = "lastNametextBox";
-            lastNametextBox.Size = new Size(168, 31);
+            lastNametextBox.Size = new Size(168, 36);
             lastNametextBox.TabIndex = 1;
             // 
             // String_Variable_Demo
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(800, 450);

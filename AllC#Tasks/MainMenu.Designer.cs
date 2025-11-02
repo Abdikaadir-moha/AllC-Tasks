@@ -31,11 +31,54 @@
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             Exit_ToolStripMenuItem = new ToolStripMenuItem();
+            chapterAssignmentsToolStripMenuItem = new ToolStripMenuItem();
+            Chapter2ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_2_2_toolStripMenuItem = new ToolStripMenuItem();
+            PresidentalTraviaToolStripMenuItem = new ToolStripMenuItem();
+            MultipleButtonControlsToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_2_3_toolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_2_4_toolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_2_5_toolStripMenuItem = new ToolStripMenuItem();
+            PictureBoxToolStripMenuItem = new ToolStripMenuItem();
+            Chapter3ToolStripMenuItem = new ToolStripMenuItem();
+            StringDemoProgToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_3_1toolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_3_2toolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_3_3toolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_3_4toolStripMenuItem = new ToolStripMenuItem();
+            DemoFieldToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_3_5toolStripMenuItem = new ToolStripMenuItem();
+            TabOrderProgToolStripMenuItem = new ToolStripMenuItem();
+            Chapter4ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_1ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_2ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_3ToolStripMenuItem = new ToolStripMenuItem();
+            GradeProgramToolStripMenuItem = new ToolStripMenuItem();
+            RangeCheckerProgramToolStripMenuItem = new ToolStripMenuItem();
+            SecretWordProgramToolStripMenuItem = new ToolStripMenuItem();
+            AddingTwoNumbersProgToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_4ToolStripMenuItem = new ToolStripMenuItem();
+            RadioButtonProgToolStripMenuItem = new ToolStripMenuItem();
+            CheckBoxProgToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_5ToolStripMenuItem = new ToolStripMenuItem();
+            MonthCheckToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_4_6ToolStripMenuItem = new ToolStripMenuItem();
+            Chapter5ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_5_1ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_5_2ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_5_3ToolStripMenuItem = new ToolStripMenuItem();
+            WriteReadOpenSaveAndTotalToolStripMenuItem = new ToolStripMenuItem();
+            RandomObjectToolStripMenuItem = new ToolStripMenuItem();
+            Chapter6ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial6_1ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial6_2ToolStripMenuItem = new ToolStripMenuItem();
+            PassByRefferenceToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_6_3ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_6_4ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial_6_5ToolStripMenuItem = new ToolStripMenuItem();
+            ReturningStringProgramToolStripMenuItem = new ToolStripMenuItem();
             Ch_ass_toolStripMenuItem3 = new ToolStripMenuItem();
             Ass_One_ToolStripMenuItem = new ToolStripMenuItem();
-            Translator_TSMI = new ToolStripMenuItem();
-            Pic_box_toolStripMenuItem = new ToolStripMenuItem();
-            Flag_toolStripMenuItem = new ToolStripMenuItem();
             assignmentTwoToolStripMenuItem = new ToolStripMenuItem();
             LatinTrnlrProgToolStripMenuItem = new ToolStripMenuItem();
             CheckNumImgProgToolStripMenuItem = new ToolStripMenuItem();
@@ -81,7 +124,25 @@
             CaloriesBurnedTrackerToolStripMenuItem = new ToolStripMenuItem();
             TuitionIncreaseProjectionToolStripMenuItem = new ToolStripMenuItem();
             DiceSimulatorToolStripMenuItem = new ToolStripMenuItem();
+            AdditionTutorToolStripMenuItem = new ToolStripMenuItem();
+            RandomNumberGuessingToolStripMenuItem = new ToolStripMenuItem();
+            CalculatingTheFactorialToolStripMenuItem = new ToolStripMenuItem();
+            RandomNumberFileWriterToolStripMenuItem = new ToolStripMenuItem();
+            RandomNumberFileReaderToolStripMenuItem2 = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripMenuItem();
+            RetailPriceCalculatorToolStripMenuItem = new ToolStripMenuItem();
+            FallingDistanceCalculatorToolStripMenuItem = new ToolStripMenuItem();
+            KineticEnergyToolStripMenuItem = new ToolStripMenuItem();
+            CaloriesAndCarbohydratesToolStripMenuItem = new ToolStripMenuItem();
+            JoesAutomotiveToolStripMenuItem = new ToolStripMenuItem();
+            HospitalChargesToolStripMenuItem = new ToolStripMenuItem();
+            PresentValueToolStripMenuItem = new ToolStripMenuItem();
+            PrimeNumbersToolStripMenuItem = new ToolStripMenuItem();
+            PrimeNumberListToolStripMenuItem = new ToolStripMenuItem();
+            RockPaperScissorsGameToolStripMenuItem = new ToolStripMenuItem();
             ProfileToolStripMenuIte = new ToolStripMenuItem();
+            Chapter1_ToolStripMenuItem = new ToolStripMenuItem();
+            Tutorial58ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -91,7 +152,7 @@
             menuStrip1.BackColor = Color.LightSkyBlue;
             menuStrip1.Font = new Font("Roboto", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, Ch_ass_toolStripMenuItem3, ProfileToolStripMenuIte });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, chapterAssignmentsToolStripMenuItem, Ch_ass_toolStripMenuItem3, ProfileToolStripMenuIte });
             menuStrip1.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -99,7 +160,6 @@
             menuStrip1.Size = new Size(1022, 52);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
-            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // fileToolStripMenuItem
             // 
@@ -115,10 +175,319 @@
             Exit_ToolStripMenuItem.Text = "E&xit";
             Exit_ToolStripMenuItem.Click += Exit_ToolStripMenuItem_Click;
             // 
+            // chapterAssignmentsToolStripMenuItem
+            // 
+            chapterAssignmentsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Chapter2ToolStripMenuItem, Chapter3ToolStripMenuItem, Chapter4ToolStripMenuItem, Chapter5ToolStripMenuItem, Chapter6ToolStripMenuItem });
+            chapterAssignmentsToolStripMenuItem.Name = "chapterAssignmentsToolStripMenuItem";
+            chapterAssignmentsToolStripMenuItem.Size = new Size(223, 48);
+            chapterAssignmentsToolStripMenuItem.Text = "Chapter &Examples";
+            // 
+            // Chapter2ToolStripMenuItem
+            // 
+            Chapter2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Tutorial_2_2_toolStripMenuItem, PresidentalTraviaToolStripMenuItem, MultipleButtonControlsToolStripMenuItem, Tutorial_2_3_toolStripMenuItem, Tutorial_2_4_toolStripMenuItem, Tutorial_2_5_toolStripMenuItem, PictureBoxToolStripMenuItem });
+            Chapter2ToolStripMenuItem.Name = "Chapter2ToolStripMenuItem";
+            Chapter2ToolStripMenuItem.Size = new Size(270, 38);
+            Chapter2ToolStripMenuItem.Text = "Chapter &2";
+            // 
+            // Tutorial_2_2_toolStripMenuItem
+            // 
+            Tutorial_2_2_toolStripMenuItem.Name = "Tutorial_2_2_toolStripMenuItem";
+            Tutorial_2_2_toolStripMenuItem.Size = new Size(379, 38);
+            Tutorial_2_2_toolStripMenuItem.Text = "Tutorial 2-2";
+            Tutorial_2_2_toolStripMenuItem.Click += Tutorial_2_2_toolStripMenuItem_Click_1;
+            // 
+            // PresidentalTraviaToolStripMenuItem
+            // 
+            PresidentalTraviaToolStripMenuItem.Name = "PresidentalTraviaToolStripMenuItem";
+            PresidentalTraviaToolStripMenuItem.Size = new Size(379, 38);
+            PresidentalTraviaToolStripMenuItem.Text = "Presidential Trivia form";
+            PresidentalTraviaToolStripMenuItem.Click += PresidentalTraviaToolStripMenuItem_Click;
+            // 
+            // MultipleButtonControlsToolStripMenuItem
+            // 
+            MultipleButtonControlsToolStripMenuItem.Name = "MultipleButtonControlsToolStripMenuItem";
+            MultipleButtonControlsToolStripMenuItem.Size = new Size(379, 38);
+            MultipleButtonControlsToolStripMenuItem.Text = "Multiple Button controls ";
+            MultipleButtonControlsToolStripMenuItem.Click += MultipleButtonControlsToolStripMenuItem_Click_1;
+            // 
+            // Tutorial_2_3_toolStripMenuItem
+            // 
+            Tutorial_2_3_toolStripMenuItem.Name = "Tutorial_2_3_toolStripMenuItem";
+            Tutorial_2_3_toolStripMenuItem.Size = new Size(379, 38);
+            Tutorial_2_3_toolStripMenuItem.Text = "Tutorial 2-3";
+            Tutorial_2_3_toolStripMenuItem.Click += Tutorial_2_3_toolStripMenuItem_Click;
+            // 
+            // Tutorial_2_4_toolStripMenuItem
+            // 
+            Tutorial_2_4_toolStripMenuItem.Name = "Tutorial_2_4_toolStripMenuItem";
+            Tutorial_2_4_toolStripMenuItem.Size = new Size(379, 38);
+            Tutorial_2_4_toolStripMenuItem.Text = "Tutorial 2-4";
+            Tutorial_2_4_toolStripMenuItem.Click += Tutorial_2_4_toolStripMenuItem_Click;
+            // 
+            // Tutorial_2_5_toolStripMenuItem
+            // 
+            Tutorial_2_5_toolStripMenuItem.Name = "Tutorial_2_5_toolStripMenuItem";
+            Tutorial_2_5_toolStripMenuItem.Size = new Size(379, 38);
+            Tutorial_2_5_toolStripMenuItem.Text = "Tutorial 2-5";
+            Tutorial_2_5_toolStripMenuItem.Click += Tutorial_2_5_toolStripMenuItem_Click;
+            // 
+            // PictureBoxToolStripMenuItem
+            // 
+            PictureBoxToolStripMenuItem.Name = "PictureBoxToolStripMenuItem";
+            PictureBoxToolStripMenuItem.Size = new Size(379, 38);
+            PictureBoxToolStripMenuItem.Text = "Picture Box Program";
+            PictureBoxToolStripMenuItem.Click += PictureBoxToolStripMenuItem_Click;
+            // 
+            // Chapter3ToolStripMenuItem
+            // 
+            Chapter3ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { StringDemoProgToolStripMenuItem, Tutorial_3_1toolStripMenuItem, Tutorial_3_2toolStripMenuItem, Tutorial_3_3toolStripMenuItem, Tutorial_3_4toolStripMenuItem, DemoFieldToolStripMenuItem, Tutorial_3_5toolStripMenuItem, TabOrderProgToolStripMenuItem });
+            Chapter3ToolStripMenuItem.Name = "Chapter3ToolStripMenuItem";
+            Chapter3ToolStripMenuItem.Size = new Size(270, 38);
+            Chapter3ToolStripMenuItem.Text = "Chapter &3";
+            // 
+            // StringDemoProgToolStripMenuItem
+            // 
+            StringDemoProgToolStripMenuItem.Name = "StringDemoProgToolStripMenuItem";
+            StringDemoProgToolStripMenuItem.Size = new Size(397, 38);
+            StringDemoProgToolStripMenuItem.Text = "String demo Prog";
+            StringDemoProgToolStripMenuItem.Click += StringDemoProgToolStripMenuItem_Click;
+            // 
+            // Tutorial_3_1toolStripMenuItem
+            // 
+            Tutorial_3_1toolStripMenuItem.Name = "Tutorial_3_1toolStripMenuItem";
+            Tutorial_3_1toolStripMenuItem.Size = new Size(397, 38);
+            Tutorial_3_1toolStripMenuItem.Text = "Tutorial 3-1";
+            Tutorial_3_1toolStripMenuItem.Click += Tutorial_3_1toolStripMenuItem_Click_1;
+            // 
+            // Tutorial_3_2toolStripMenuItem
+            // 
+            Tutorial_3_2toolStripMenuItem.Name = "Tutorial_3_2toolStripMenuItem";
+            Tutorial_3_2toolStripMenuItem.Size = new Size(397, 38);
+            Tutorial_3_2toolStripMenuItem.Text = "Tutorial 3-2";
+            Tutorial_3_2toolStripMenuItem.Click += Tutorial_3_2toolStripMenuItem_Click_1;
+            // 
+            // Tutorial_3_3toolStripMenuItem
+            // 
+            Tutorial_3_3toolStripMenuItem.Name = "Tutorial_3_3toolStripMenuItem";
+            Tutorial_3_3toolStripMenuItem.Size = new Size(397, 38);
+            Tutorial_3_3toolStripMenuItem.Text = "Tutorial 3-3";
+            Tutorial_3_3toolStripMenuItem.Click += Tutorial_3_3toolStripMenuItem_Click_1;
+            // 
+            // Tutorial_3_4toolStripMenuItem
+            // 
+            Tutorial_3_4toolStripMenuItem.Name = "Tutorial_3_4toolStripMenuItem";
+            Tutorial_3_4toolStripMenuItem.Size = new Size(397, 38);
+            Tutorial_3_4toolStripMenuItem.Text = "Tutorial 3-4";
+            Tutorial_3_4toolStripMenuItem.Click += Tutorial_3_4toolStripMenuItem_Click_1;
+            // 
+            // DemoFieldToolStripMenuItem
+            // 
+            DemoFieldToolStripMenuItem.Name = "DemoFieldToolStripMenuItem";
+            DemoFieldToolStripMenuItem.Size = new Size(397, 38);
+            DemoFieldToolStripMenuItem.Text = "The Field Demo form Prog";
+            DemoFieldToolStripMenuItem.Click += DemoFieldToolStripMenuItem_Click_1;
+            // 
+            // Tutorial_3_5toolStripMenuItem
+            // 
+            Tutorial_3_5toolStripMenuItem.Name = "Tutorial_3_5toolStripMenuItem";
+            Tutorial_3_5toolStripMenuItem.Size = new Size(397, 38);
+            Tutorial_3_5toolStripMenuItem.Text = "Tutorial 3-5";
+            Tutorial_3_5toolStripMenuItem.Click += Tutorial_3_5toolStripMenuItem_Click_1;
+            // 
+            // TabOrderProgToolStripMenuItem
+            // 
+            TabOrderProgToolStripMenuItem.Name = "TabOrderProgToolStripMenuItem";
+            TabOrderProgToolStripMenuItem.Size = new Size(397, 38);
+            TabOrderProgToolStripMenuItem.Text = "Tab Order Prog";
+            TabOrderProgToolStripMenuItem.Click += TabOrderProgToolStripMenuItem_Click_1;
+            // 
+            // Chapter4ToolStripMenuItem
+            // 
+            Chapter4ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Tutorial_4_1ToolStripMenuItem, Tutorial_4_2ToolStripMenuItem, Tutorial_4_3ToolStripMenuItem, GradeProgramToolStripMenuItem, RangeCheckerProgramToolStripMenuItem, SecretWordProgramToolStripMenuItem, AddingTwoNumbersProgToolStripMenuItem, Tutorial_4_4ToolStripMenuItem, RadioButtonProgToolStripMenuItem, CheckBoxProgToolStripMenuItem, Tutorial_4_5ToolStripMenuItem, MonthCheckToolStripMenuItem, Tutorial_4_6ToolStripMenuItem });
+            Chapter4ToolStripMenuItem.Name = "Chapter4ToolStripMenuItem";
+            Chapter4ToolStripMenuItem.Size = new Size(270, 38);
+            Chapter4ToolStripMenuItem.Text = "Chapter &4";
+            // 
+            // Tutorial_4_1ToolStripMenuItem
+            // 
+            Tutorial_4_1ToolStripMenuItem.Name = "Tutorial_4_1ToolStripMenuItem";
+            Tutorial_4_1ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_1ToolStripMenuItem.Text = "Tutorial 4-1";
+            // 
+            // Tutorial_4_2ToolStripMenuItem
+            // 
+            Tutorial_4_2ToolStripMenuItem.Name = "Tutorial_4_2ToolStripMenuItem";
+            Tutorial_4_2ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_2ToolStripMenuItem.Text = "Tutorial 4-2";
+            // 
+            // Tutorial_4_3ToolStripMenuItem
+            // 
+            Tutorial_4_3ToolStripMenuItem.Name = "Tutorial_4_3ToolStripMenuItem";
+            Tutorial_4_3ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_3ToolStripMenuItem.Text = "Tutorial 4-3";
+            // 
+            // GradeProgramToolStripMenuItem
+            // 
+            GradeProgramToolStripMenuItem.Name = "GradeProgramToolStripMenuItem";
+            GradeProgramToolStripMenuItem.Size = new Size(402, 38);
+            GradeProgramToolStripMenuItem.Text = "Grade Prog";
+            // 
+            // RangeCheckerProgramToolStripMenuItem
+            // 
+            RangeCheckerProgramToolStripMenuItem.Name = "RangeCheckerProgramToolStripMenuItem";
+            RangeCheckerProgramToolStripMenuItem.Size = new Size(402, 38);
+            RangeCheckerProgramToolStripMenuItem.Text = "Range checker Prog";
+            // 
+            // SecretWordProgramToolStripMenuItem
+            // 
+            SecretWordProgramToolStripMenuItem.Name = "SecretWordProgramToolStripMenuItem";
+            SecretWordProgramToolStripMenuItem.Size = new Size(402, 38);
+            SecretWordProgramToolStripMenuItem.Text = "Secret Word Prog";
+            // 
+            // AddingTwoNumbersProgToolStripMenuItem
+            // 
+            AddingTwoNumbersProgToolStripMenuItem.Name = "AddingTwoNumbersProgToolStripMenuItem";
+            AddingTwoNumbersProgToolStripMenuItem.Size = new Size(402, 38);
+            AddingTwoNumbersProgToolStripMenuItem.Text = "Adding Two Numbers Prog";
+            // 
+            // Tutorial_4_4ToolStripMenuItem
+            // 
+            Tutorial_4_4ToolStripMenuItem.Name = "Tutorial_4_4ToolStripMenuItem";
+            Tutorial_4_4ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_4ToolStripMenuItem.Text = "Tutorial 4-4";
+            // 
+            // RadioButtonProgToolStripMenuItem
+            // 
+            RadioButtonProgToolStripMenuItem.Name = "RadioButtonProgToolStripMenuItem";
+            RadioButtonProgToolStripMenuItem.Size = new Size(402, 38);
+            RadioButtonProgToolStripMenuItem.Text = "Radio Button Prog";
+            // 
+            // CheckBoxProgToolStripMenuItem
+            // 
+            CheckBoxProgToolStripMenuItem.Name = "CheckBoxProgToolStripMenuItem";
+            CheckBoxProgToolStripMenuItem.Size = new Size(402, 38);
+            CheckBoxProgToolStripMenuItem.Text = "Check Box Prog";
+            // 
+            // Tutorial_4_5ToolStripMenuItem
+            // 
+            Tutorial_4_5ToolStripMenuItem.Name = "Tutorial_4_5ToolStripMenuItem";
+            Tutorial_4_5ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_5ToolStripMenuItem.Text = "Tutorial 4-5";
+            // 
+            // MonthCheckToolStripMenuItem
+            // 
+            MonthCheckToolStripMenuItem.Name = "MonthCheckToolStripMenuItem";
+            MonthCheckToolStripMenuItem.Size = new Size(402, 38);
+            MonthCheckToolStripMenuItem.Text = "Month check Prog";
+            // 
+            // Tutorial_4_6ToolStripMenuItem
+            // 
+            Tutorial_4_6ToolStripMenuItem.Name = "Tutorial_4_6ToolStripMenuItem";
+            Tutorial_4_6ToolStripMenuItem.Size = new Size(402, 38);
+            Tutorial_4_6ToolStripMenuItem.Text = "Tutorial 4-6";
+            // 
+            // Chapter5ToolStripMenuItem
+            // 
+            Chapter5ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Tutorial_5_1ToolStripMenuItem, Tutorial_5_2ToolStripMenuItem, Tutorial_5_3ToolStripMenuItem, WriteReadOpenSaveAndTotalToolStripMenuItem, RandomObjectToolStripMenuItem, Tutorial58ToolStripMenuItem });
+            Chapter5ToolStripMenuItem.Name = "Chapter5ToolStripMenuItem";
+            Chapter5ToolStripMenuItem.Size = new Size(270, 38);
+            Chapter5ToolStripMenuItem.Text = "Chapter &5";
+            // 
+            // Tutorial_5_1ToolStripMenuItem
+            // 
+            Tutorial_5_1ToolStripMenuItem.Name = "Tutorial_5_1ToolStripMenuItem";
+            Tutorial_5_1ToolStripMenuItem.Size = new Size(474, 38);
+            Tutorial_5_1ToolStripMenuItem.Text = "Tutorial_5-1";
+            Tutorial_5_1ToolStripMenuItem.Click += Tutorial_5_1ToolStripMenuItem_Click;
+            // 
+            // Tutorial_5_2ToolStripMenuItem
+            // 
+            Tutorial_5_2ToolStripMenuItem.Name = "Tutorial_5_2ToolStripMenuItem";
+            Tutorial_5_2ToolStripMenuItem.Size = new Size(474, 38);
+            Tutorial_5_2ToolStripMenuItem.Text = "Tutorial_5-2";
+            Tutorial_5_2ToolStripMenuItem.Click += Tutorial_5_2ToolStripMenuItem_Click;
+            // 
+            // Tutorial_5_3ToolStripMenuItem
+            // 
+            Tutorial_5_3ToolStripMenuItem.Name = "Tutorial_5_3ToolStripMenuItem";
+            Tutorial_5_3ToolStripMenuItem.Size = new Size(474, 38);
+            Tutorial_5_3ToolStripMenuItem.Text = "Tutorial_5-3";
+            Tutorial_5_3ToolStripMenuItem.Click += Tutorial_5_3ToolStripMenuItem_Click;
+            // 
+            // WriteReadOpenSaveAndTotalToolStripMenuItem
+            // 
+            WriteReadOpenSaveAndTotalToolStripMenuItem.Name = "WriteReadOpenSaveAndTotalToolStripMenuItem";
+            WriteReadOpenSaveAndTotalToolStripMenuItem.Size = new Size(474, 38);
+            WriteReadOpenSaveAndTotalToolStripMenuItem.Text = "Write, Read, Open, Save and Total";
+            WriteReadOpenSaveAndTotalToolStripMenuItem.Click += WriteReadOpenSaveAndTotalToolStripMenuItem_Click;
+            // 
+            // RandomObjectToolStripMenuItem
+            // 
+            RandomObjectToolStripMenuItem.Name = "RandomObjectToolStripMenuItem";
+            RandomObjectToolStripMenuItem.Size = new Size(474, 38);
+            RandomObjectToolStripMenuItem.Text = "Random Object";
+            RandomObjectToolStripMenuItem.Click += RandomObjectToolStripMenuItem_Click;
+            // 
+            // Chapter6ToolStripMenuItem
+            // 
+            Chapter6ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Tutorial6_1ToolStripMenuItem, Tutorial6_2ToolStripMenuItem, PassByRefferenceToolStripMenuItem, Tutorial_6_3ToolStripMenuItem, Tutorial_6_4ToolStripMenuItem, Tutorial_6_5ToolStripMenuItem, ReturningStringProgramToolStripMenuItem });
+            Chapter6ToolStripMenuItem.Name = "Chapter6ToolStripMenuItem";
+            Chapter6ToolStripMenuItem.Size = new Size(270, 38);
+            Chapter6ToolStripMenuItem.Text = "Chapter &6";
+            // 
+            // Tutorial6_1ToolStripMenuItem
+            // 
+            Tutorial6_1ToolStripMenuItem.Name = "Tutorial6_1ToolStripMenuItem";
+            Tutorial6_1ToolStripMenuItem.Size = new Size(382, 38);
+            Tutorial6_1ToolStripMenuItem.Text = "Tutorial_6-1";
+            Tutorial6_1ToolStripMenuItem.Click += Tutorial6_1ToolStripMenuItem_Click;
+            // 
+            // Tutorial6_2ToolStripMenuItem
+            // 
+            Tutorial6_2ToolStripMenuItem.Name = "Tutorial6_2ToolStripMenuItem";
+            Tutorial6_2ToolStripMenuItem.Size = new Size(382, 38);
+            Tutorial6_2ToolStripMenuItem.Text = "Tutorial_6-2";
+            Tutorial6_2ToolStripMenuItem.Click += Tutorial6_2ToolStripMenuItem_Click;
+            // 
+            // PassByRefferenceToolStripMenuItem
+            // 
+            PassByRefferenceToolStripMenuItem.Name = "PassByRefferenceToolStripMenuItem";
+            PassByRefferenceToolStripMenuItem.Size = new Size(382, 38);
+            PassByRefferenceToolStripMenuItem.Text = "Pass By Reference";
+            PassByRefferenceToolStripMenuItem.Click += PassByRefferenceToolStripMenuItem_Click;
+            // 
+            // Tutorial_6_3ToolStripMenuItem
+            // 
+            Tutorial_6_3ToolStripMenuItem.Name = "Tutorial_6_3ToolStripMenuItem";
+            Tutorial_6_3ToolStripMenuItem.Size = new Size(382, 38);
+            Tutorial_6_3ToolStripMenuItem.Text = "Tutorial 6-3";
+            Tutorial_6_3ToolStripMenuItem.Click += Tutorial_6_3ToolStripMenuItem_Click;
+            // 
+            // Tutorial_6_4ToolStripMenuItem
+            // 
+            Tutorial_6_4ToolStripMenuItem.Name = "Tutorial_6_4ToolStripMenuItem";
+            Tutorial_6_4ToolStripMenuItem.Size = new Size(382, 38);
+            Tutorial_6_4ToolStripMenuItem.Text = "Tutorial 6-4";
+            Tutorial_6_4ToolStripMenuItem.Click += Tutorial_6_4ToolStripMenuItem_Click;
+            // 
+            // Tutorial_6_5ToolStripMenuItem
+            // 
+            Tutorial_6_5ToolStripMenuItem.Name = "Tutorial_6_5ToolStripMenuItem";
+            Tutorial_6_5ToolStripMenuItem.Size = new Size(382, 38);
+            Tutorial_6_5ToolStripMenuItem.Text = "Tutorial 6-5";
+            Tutorial_6_5ToolStripMenuItem.Click += Tutorial_6_5ToolStripMenuItem_Click;
+            // 
+            // ReturningStringProgramToolStripMenuItem
+            // 
+            ReturningStringProgramToolStripMenuItem.Name = "ReturningStringProgramToolStripMenuItem";
+            ReturningStringProgramToolStripMenuItem.Size = new Size(382, 38);
+            ReturningStringProgramToolStripMenuItem.Text = "Returning String program";
+            ReturningStringProgramToolStripMenuItem.Click += ReturningStringProgramToolStripMenuItem_Click;
+            // 
             // Ch_ass_toolStripMenuItem3
             // 
             Ch_ass_toolStripMenuItem3.BackColor = Color.Transparent;
-            Ch_ass_toolStripMenuItem3.DropDownItems.AddRange(new ToolStripItem[] { Ass_One_ToolStripMenuItem, assignmentTwoToolStripMenuItem, assignmentThreeToolStripMenuItem, toolStripMenuItem1, assignmentToolStripMenuItem });
+            Ch_ass_toolStripMenuItem3.DropDownItems.AddRange(new ToolStripItem[] { Ass_One_ToolStripMenuItem, assignmentTwoToolStripMenuItem, assignmentThreeToolStripMenuItem, toolStripMenuItem1, assignmentToolStripMenuItem, toolStripMenuItem2 });
             Ch_ass_toolStripMenuItem3.ForeColor = Color.Black;
             Ch_ass_toolStripMenuItem3.Name = "Ch_ass_toolStripMenuItem3";
             Ch_ass_toolStripMenuItem3.Size = new Size(258, 48);
@@ -126,31 +495,10 @@
             // 
             // Ass_One_ToolStripMenuItem
             // 
-            Ass_One_ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { Translator_TSMI, Pic_box_toolStripMenuItem, Flag_toolStripMenuItem });
             Ass_One_ToolStripMenuItem.Name = "Ass_One_ToolStripMenuItem";
             Ass_One_ToolStripMenuItem.Size = new Size(262, 38);
             Ass_One_ToolStripMenuItem.Text = "Assignment &1";
-            // 
-            // Translator_TSMI
-            // 
-            Translator_TSMI.Name = "Translator_TSMI";
-            Translator_TSMI.Size = new Size(318, 38);
-            Translator_TSMI.Text = "Translator Prog";
-            Translator_TSMI.Click += Translator_TSMI_Click;
-            // 
-            // Pic_box_toolStripMenuItem
-            // 
-            Pic_box_toolStripMenuItem.Name = "Pic_box_toolStripMenuItem";
-            Pic_box_toolStripMenuItem.Size = new Size(318, 38);
-            Pic_box_toolStripMenuItem.Text = "PictureBox Prog";
-            Pic_box_toolStripMenuItem.Click += Pic_box_toolStripMenuItem_Click;
-            // 
-            // Flag_toolStripMenuItem
-            // 
-            Flag_toolStripMenuItem.Name = "Flag_toolStripMenuItem";
-            Flag_toolStripMenuItem.Size = new Size(318, 38);
-            Flag_toolStripMenuItem.Text = "Flag Identifier Prog";
-            Flag_toolStripMenuItem.Click += Flag_toolStripMenuItem_Click;
+            Ass_One_ToolStripMenuItem.Visible = false;
             // 
             // assignmentTwoToolStripMenuItem
             // 
@@ -399,7 +747,7 @@
             // 
             // assignmentToolStripMenuItem
             // 
-            assignmentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { DistanceCalculatorToolStripMenuItem, DistanceFileToolStripMenuItem, CelsiusToFahrenheitTableToolStripMenuItem, PopulatioonToolStripMenuItem, PenniesForPayToolStripMenuItem, OceanLevelsRiseToolStripMenuItem, CaloriesBurnedTrackerToolStripMenuItem, TuitionIncreaseProjectionToolStripMenuItem, DiceSimulatorToolStripMenuItem });
+            assignmentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { DistanceCalculatorToolStripMenuItem, DistanceFileToolStripMenuItem, CelsiusToFahrenheitTableToolStripMenuItem, PopulatioonToolStripMenuItem, PenniesForPayToolStripMenuItem, OceanLevelsRiseToolStripMenuItem, CaloriesBurnedTrackerToolStripMenuItem, TuitionIncreaseProjectionToolStripMenuItem, DiceSimulatorToolStripMenuItem, AdditionTutorToolStripMenuItem, RandomNumberGuessingToolStripMenuItem, CalculatingTheFactorialToolStripMenuItem, RandomNumberFileWriterToolStripMenuItem, RandomNumberFileReaderToolStripMenuItem2 });
             assignmentToolStripMenuItem.Name = "assignmentToolStripMenuItem";
             assignmentToolStripMenuItem.Size = new Size(262, 38);
             assignmentToolStripMenuItem.Text = "Assignment &5";
@@ -407,65 +755,177 @@
             // DistanceCalculatorToolStripMenuItem
             // 
             DistanceCalculatorToolStripMenuItem.Name = "DistanceCalculatorToolStripMenuItem";
-            DistanceCalculatorToolStripMenuItem.Size = new Size(405, 38);
+            DistanceCalculatorToolStripMenuItem.Size = new Size(423, 38);
             DistanceCalculatorToolStripMenuItem.Text = "Distance Calculator";
             DistanceCalculatorToolStripMenuItem.Click += DistanceCalculatorToolStripMenuItem_Click;
             // 
             // DistanceFileToolStripMenuItem
             // 
             DistanceFileToolStripMenuItem.Name = "DistanceFileToolStripMenuItem";
-            DistanceFileToolStripMenuItem.Size = new Size(405, 38);
+            DistanceFileToolStripMenuItem.Size = new Size(423, 38);
             DistanceFileToolStripMenuItem.Text = "Distance File";
             DistanceFileToolStripMenuItem.Click += DistanceFileToolStripMenuItem_Click;
             // 
             // CelsiusToFahrenheitTableToolStripMenuItem
             // 
             CelsiusToFahrenheitTableToolStripMenuItem.Name = "CelsiusToFahrenheitTableToolStripMenuItem";
-            CelsiusToFahrenheitTableToolStripMenuItem.Size = new Size(405, 38);
+            CelsiusToFahrenheitTableToolStripMenuItem.Size = new Size(423, 38);
             CelsiusToFahrenheitTableToolStripMenuItem.Text = "Celsius to Fahrenheit Table";
             CelsiusToFahrenheitTableToolStripMenuItem.Click += CelsiusToFahrenheitTableToolStripMenuItem_Click;
             // 
             // PopulatioonToolStripMenuItem
             // 
             PopulatioonToolStripMenuItem.Name = "PopulatioonToolStripMenuItem";
-            PopulatioonToolStripMenuItem.Size = new Size(405, 38);
+            PopulatioonToolStripMenuItem.Size = new Size(423, 38);
             PopulatioonToolStripMenuItem.Text = "Population ";
             PopulatioonToolStripMenuItem.Click += PopulatioonToolStripMenuItem_Click;
             // 
             // PenniesForPayToolStripMenuItem
             // 
             PenniesForPayToolStripMenuItem.Name = "PenniesForPayToolStripMenuItem";
-            PenniesForPayToolStripMenuItem.Size = new Size(405, 38);
+            PenniesForPayToolStripMenuItem.Size = new Size(423, 38);
             PenniesForPayToolStripMenuItem.Text = "Pennies for Pay";
             PenniesForPayToolStripMenuItem.Click += PenniesForPayToolStripMenuItem_Click;
             // 
             // OceanLevelsRiseToolStripMenuItem
             // 
             OceanLevelsRiseToolStripMenuItem.Name = "OceanLevelsRiseToolStripMenuItem";
-            OceanLevelsRiseToolStripMenuItem.Size = new Size(405, 38);
+            OceanLevelsRiseToolStripMenuItem.Size = new Size(423, 38);
             OceanLevelsRiseToolStripMenuItem.Text = "Ocean Levels Rise";
             OceanLevelsRiseToolStripMenuItem.Click += OceanLevelsRiseToolStripMenuItem_Click;
             // 
             // CaloriesBurnedTrackerToolStripMenuItem
             // 
             CaloriesBurnedTrackerToolStripMenuItem.Name = "CaloriesBurnedTrackerToolStripMenuItem";
-            CaloriesBurnedTrackerToolStripMenuItem.Size = new Size(405, 38);
+            CaloriesBurnedTrackerToolStripMenuItem.Size = new Size(423, 38);
             CaloriesBurnedTrackerToolStripMenuItem.Text = "Calories Burned Tracker";
             CaloriesBurnedTrackerToolStripMenuItem.Click += CaloriesBurnedTrackerToolStripMenuItem_Click;
             // 
             // TuitionIncreaseProjectionToolStripMenuItem
             // 
             TuitionIncreaseProjectionToolStripMenuItem.Name = "TuitionIncreaseProjectionToolStripMenuItem";
-            TuitionIncreaseProjectionToolStripMenuItem.Size = new Size(405, 38);
+            TuitionIncreaseProjectionToolStripMenuItem.Size = new Size(423, 38);
             TuitionIncreaseProjectionToolStripMenuItem.Text = "Tuition Increase Projection";
             TuitionIncreaseProjectionToolStripMenuItem.Click += TuitionIncreaseProjectionToolStripMenuItem_Click;
             // 
             // DiceSimulatorToolStripMenuItem
             // 
             DiceSimulatorToolStripMenuItem.Name = "DiceSimulatorToolStripMenuItem";
-            DiceSimulatorToolStripMenuItem.Size = new Size(405, 38);
+            DiceSimulatorToolStripMenuItem.Size = new Size(423, 38);
             DiceSimulatorToolStripMenuItem.Text = "Dice Simulator";
             DiceSimulatorToolStripMenuItem.Click += DiceSimulatorToolStripMenuItem_Click;
+            // 
+            // AdditionTutorToolStripMenuItem
+            // 
+            AdditionTutorToolStripMenuItem.Name = "AdditionTutorToolStripMenuItem";
+            AdditionTutorToolStripMenuItem.Size = new Size(423, 38);
+            AdditionTutorToolStripMenuItem.Text = "Addition Tutor";
+            AdditionTutorToolStripMenuItem.Click += AdditionTutorToolStripMenuItem_Click;
+            // 
+            // RandomNumberGuessingToolStripMenuItem
+            // 
+            RandomNumberGuessingToolStripMenuItem.Name = "RandomNumberGuessingToolStripMenuItem";
+            RandomNumberGuessingToolStripMenuItem.Size = new Size(423, 38);
+            RandomNumberGuessingToolStripMenuItem.Text = "Random Number Guessing";
+            RandomNumberGuessingToolStripMenuItem.Click += RandomNumberGuessingToolStripMenuItem_Click;
+            // 
+            // CalculatingTheFactorialToolStripMenuItem
+            // 
+            CalculatingTheFactorialToolStripMenuItem.Name = "CalculatingTheFactorialToolStripMenuItem";
+            CalculatingTheFactorialToolStripMenuItem.Size = new Size(423, 38);
+            CalculatingTheFactorialToolStripMenuItem.Text = "Calculating the Factorial";
+            CalculatingTheFactorialToolStripMenuItem.Click += CalculatingTheFactorialToolStripMenuItem_Click;
+            // 
+            // RandomNumberFileWriterToolStripMenuItem
+            // 
+            RandomNumberFileWriterToolStripMenuItem.Name = "RandomNumberFileWriterToolStripMenuItem";
+            RandomNumberFileWriterToolStripMenuItem.Size = new Size(423, 38);
+            RandomNumberFileWriterToolStripMenuItem.Text = "Random Number File Writer";
+            RandomNumberFileWriterToolStripMenuItem.Click += RandomNumberFileWriterToolStripMenuItem_Click;
+            // 
+            // RandomNumberFileReaderToolStripMenuItem2
+            // 
+            RandomNumberFileReaderToolStripMenuItem2.Name = "RandomNumberFileReaderToolStripMenuItem2";
+            RandomNumberFileReaderToolStripMenuItem2.Size = new Size(423, 38);
+            RandomNumberFileReaderToolStripMenuItem2.Text = "Random Number File Reader";
+            RandomNumberFileReaderToolStripMenuItem2.Click += RandomNumberFileReaderToolStripMenuItem2_Click;
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { RetailPriceCalculatorToolStripMenuItem, FallingDistanceCalculatorToolStripMenuItem, KineticEnergyToolStripMenuItem, CaloriesAndCarbohydratesToolStripMenuItem, JoesAutomotiveToolStripMenuItem, HospitalChargesToolStripMenuItem, PresentValueToolStripMenuItem, PrimeNumbersToolStripMenuItem, PrimeNumberListToolStripMenuItem, RockPaperScissorsGameToolStripMenuItem });
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(262, 38);
+            toolStripMenuItem2.Text = "Assignment &6";
+            // 
+            // RetailPriceCalculatorToolStripMenuItem
+            // 
+            RetailPriceCalculatorToolStripMenuItem.Name = "RetailPriceCalculatorToolStripMenuItem";
+            RetailPriceCalculatorToolStripMenuItem.Size = new Size(418, 38);
+            RetailPriceCalculatorToolStripMenuItem.Text = "Retail Price Calculator";
+            RetailPriceCalculatorToolStripMenuItem.Click += RetailPriceCalculatorToolStripMenuItem_Click;
+            // 
+            // FallingDistanceCalculatorToolStripMenuItem
+            // 
+            FallingDistanceCalculatorToolStripMenuItem.Name = "FallingDistanceCalculatorToolStripMenuItem";
+            FallingDistanceCalculatorToolStripMenuItem.Size = new Size(418, 38);
+            FallingDistanceCalculatorToolStripMenuItem.Text = "Falling Distance Calculator";
+            FallingDistanceCalculatorToolStripMenuItem.Click += FallingDistanceCalculatorToolStripMenuItem_Click;
+            // 
+            // KineticEnergyToolStripMenuItem
+            // 
+            KineticEnergyToolStripMenuItem.Name = "KineticEnergyToolStripMenuItem";
+            KineticEnergyToolStripMenuItem.Size = new Size(418, 38);
+            KineticEnergyToolStripMenuItem.Text = "Kinetic Energy";
+            KineticEnergyToolStripMenuItem.Click += KineticEnergyToolStripMenuItem_Click;
+            // 
+            // CaloriesAndCarbohydratesToolStripMenuItem
+            // 
+            CaloriesAndCarbohydratesToolStripMenuItem.Name = "CaloriesAndCarbohydratesToolStripMenuItem";
+            CaloriesAndCarbohydratesToolStripMenuItem.Size = new Size(418, 38);
+            CaloriesAndCarbohydratesToolStripMenuItem.Text = "Calories and Carbohydrates ";
+            CaloriesAndCarbohydratesToolStripMenuItem.Click += CaloriesAndCarbohydratesToolStripMenuItem_Click;
+            // 
+            // JoesAutomotiveToolStripMenuItem
+            // 
+            JoesAutomotiveToolStripMenuItem.Name = "JoesAutomotiveToolStripMenuItem";
+            JoesAutomotiveToolStripMenuItem.Size = new Size(418, 38);
+            JoesAutomotiveToolStripMenuItem.Text = "Joe’s Automotive";
+            JoesAutomotiveToolStripMenuItem.Click += JoesAutomotiveToolStripMenuItem_Click;
+            // 
+            // HospitalChargesToolStripMenuItem
+            // 
+            HospitalChargesToolStripMenuItem.Name = "HospitalChargesToolStripMenuItem";
+            HospitalChargesToolStripMenuItem.Size = new Size(418, 38);
+            HospitalChargesToolStripMenuItem.Text = "Hospital Charges";
+            HospitalChargesToolStripMenuItem.Click += HospitalChargesToolStripMenuItem_Click;
+            // 
+            // PresentValueToolStripMenuItem
+            // 
+            PresentValueToolStripMenuItem.Name = "PresentValueToolStripMenuItem";
+            PresentValueToolStripMenuItem.Size = new Size(418, 38);
+            PresentValueToolStripMenuItem.Text = "Present Value";
+            PresentValueToolStripMenuItem.Click += PresentValueToolStripMenuItem_Click;
+            // 
+            // PrimeNumbersToolStripMenuItem
+            // 
+            PrimeNumbersToolStripMenuItem.Name = "PrimeNumbersToolStripMenuItem";
+            PrimeNumbersToolStripMenuItem.Size = new Size(418, 38);
+            PrimeNumbersToolStripMenuItem.Text = "Prime Numbers ";
+            PrimeNumbersToolStripMenuItem.Click += PrimeNumbersToolStripMenuItem_Click;
+            // 
+            // PrimeNumberListToolStripMenuItem
+            // 
+            PrimeNumberListToolStripMenuItem.Name = "PrimeNumberListToolStripMenuItem";
+            PrimeNumberListToolStripMenuItem.Size = new Size(418, 38);
+            PrimeNumberListToolStripMenuItem.Text = "Prime Number List";
+            PrimeNumberListToolStripMenuItem.Click += PrimeNumberListToolStripMenuItem_Click;
+            // 
+            // RockPaperScissorsGameToolStripMenuItem
+            // 
+            RockPaperScissorsGameToolStripMenuItem.Name = "RockPaperScissorsGameToolStripMenuItem";
+            RockPaperScissorsGameToolStripMenuItem.Size = new Size(418, 38);
+            RockPaperScissorsGameToolStripMenuItem.Text = "Rock, Paper, Scissors Game";
+            RockPaperScissorsGameToolStripMenuItem.Click += RockPaperScissorsGameToolStripMenuItem_Click;
             // 
             // ProfileToolStripMenuIte
             // 
@@ -475,6 +935,18 @@
             ProfileToolStripMenuIte.Size = new Size(123, 48);
             ProfileToolStripMenuIte.Text = "&Portfolio";
             ProfileToolStripMenuIte.Click += ProfileToolStripMenuIte_Click;
+            // 
+            // Chapter1_ToolStripMenuItem
+            // 
+            Chapter1_ToolStripMenuItem.Name = "Chapter1_ToolStripMenuItem";
+            Chapter1_ToolStripMenuItem.Size = new Size(270, 38);
+            // 
+            // Tutorial58ToolStripMenuItem
+            // 
+            Tutorial58ToolStripMenuItem.Name = "Tutorial58ToolStripMenuItem";
+            Tutorial58ToolStripMenuItem.Size = new Size(474, 38);
+            Tutorial58ToolStripMenuItem.Text = "Tutorial_5-8";
+            Tutorial58ToolStripMenuItem.Click += Tutorial58ToolStripMenuItem_Click;
             // 
             // MainMenu
             // 
@@ -497,7 +969,6 @@
         #endregion
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
-        private ToolStripMenuItem Ch_ex_toolStripMenuItem2;
         private ToolStripMenuItem Chapter1_ToolStripMenuItem;
         private ToolStripMenuItem Chapter2ToolStripMenuItem;
         private ToolStripMenuItem Chapter3ToolStripMenuItem;
@@ -509,9 +980,6 @@
         private ToolStripMenuItem Tutorial_2_5_toolStripMenuItem;
         private ToolStripMenuItem Exit_ToolStripMenuItem;
         private ToolStripMenuItem Ass_One_ToolStripMenuItem;
-        private ToolStripMenuItem Translator_TSMI;
-        private ToolStripMenuItem Pic_box_toolStripMenuItem;
-        private ToolStripMenuItem Flag_toolStripMenuItem;
         private ToolStripMenuItem Tutorial_3_1toolStripMenuItem;
         private ToolStripMenuItem Tutorial_3_2toolStripMenuItem;
         private ToolStripMenuItem Tutorial_3_3toolStripMenuItem;
@@ -544,10 +1012,9 @@
         private ToolStripMenuItem TabOrderProgToolStripMenuItem;
         private ToolStripMenuItem DemoFieldToolStripMenuItem;
         private ToolStripMenuItem MultipleButtonControlsToolStripMenuItem;
-        private ToolStripMenuItem chapter4ToolStripMenuItem;
+        private ToolStripMenuItem Chapter4ToolStripMenuItem;
         private ToolStripMenuItem Tutorial_4_1ToolStripMenuItem;
         private ToolStripMenuItem Tutorial_4_2ToolStripMenuItem;
-        private ToolStripMenuItem Tutorial_4_3ToolStripMenuItem;
         private ToolStripMenuItem GradeProgramToolStripMenuItem;
         private ToolStripMenuItem RangeCheckerProgramToolStripMenuItem;
         private ToolStripMenuItem SecretWordProgramToolStripMenuItem;
@@ -572,19 +1039,6 @@
         private ToolStripMenuItem FatPercentageToolStripMenuItem11;
         private ToolStripMenuItem TimeCalculatorToolStripMenuItem12;
         private ToolStripMenuItem WorkshopSelectorToolStripMenuItem13;
-        private ToolStripMenuItem chapter5ToolStripMenuItem;
-        private ToolStripMenuItem RNConverterToolStripMenuItem;
-        private ToolStripMenuItem calcEdingToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem14;
-        private ToolStripMenuItem toolStripMenuItem15;
-        private ToolStripMenuItem calcEndingBalanceToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem17;
-        private ToolStripMenuItem toolStripMenuItem16;
-        private ToolStripMenuItem toolStripMenuItem18;
-        private ToolStripMenuItem toolStripMenuItem19;
-        private ToolStripMenuItem openFileDialogProgToolStripMenuItem;
-        private ToolStripMenuItem semulatingToolStripMenuItem;
-        private ToolStripMenuItem loadEventHandlerToolStripMenuItem;
         private ToolStripMenuItem DistanceCalculatorToolStripMenuItem;
         private ToolStripMenuItem DistanceFileToolStripMenuItem;
         private ToolStripMenuItem CelsiusToFahrenheitTableToolStripMenuItem;
@@ -594,5 +1048,39 @@
         private ToolStripMenuItem CaloriesBurnedTrackerToolStripMenuItem;
         private ToolStripMenuItem TuitionIncreaseProjectionToolStripMenuItem;
         private ToolStripMenuItem DiceSimulatorToolStripMenuItem;
+        private ToolStripMenuItem chapterAssignmentsToolStripMenuItem;
+        private ToolStripMenuItem PictureBoxToolStripMenuItem;
+        private ToolStripMenuItem Chapter5ToolStripMenuItem;
+        private ToolStripMenuItem Chapter6ToolStripMenuItem;
+        private ToolStripMenuItem AdditionTutorToolStripMenuItem;
+        private ToolStripMenuItem RandomNumberGuessingToolStripMenuItem;
+        private ToolStripMenuItem CalculatingTheFactorialToolStripMenuItem;
+        private ToolStripMenuItem RandomNumberFileWriterToolStripMenuItem;
+        private ToolStripMenuItem RandomNumberFileReaderToolStripMenuItem2;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem Tutorial6_1ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_5_1ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_4_3ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial6_2ToolStripMenuItem;
+        private ToolStripMenuItem PassByRefferenceToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_6_3ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_6_4ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_6_5ToolStripMenuItem;
+        private ToolStripMenuItem ReturningStringProgramToolStripMenuItem;
+        private ToolStripMenuItem RetailPriceCalculatorToolStripMenuItem;
+        private ToolStripMenuItem FallingDistanceCalculatorToolStripMenuItem;
+        private ToolStripMenuItem KineticEnergyToolStripMenuItem;
+        private ToolStripMenuItem CaloriesAndCarbohydratesToolStripMenuItem;
+        private ToolStripMenuItem JoesAutomotiveToolStripMenuItem;
+        private ToolStripMenuItem HospitalChargesToolStripMenuItem;
+        private ToolStripMenuItem PresentValueToolStripMenuItem;
+        private ToolStripMenuItem PrimeNumbersToolStripMenuItem;
+        private ToolStripMenuItem PrimeNumberListToolStripMenuItem;
+        private ToolStripMenuItem RockPaperScissorsGameToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_5_2ToolStripMenuItem;
+        private ToolStripMenuItem Tutorial_5_3ToolStripMenuItem;
+        private ToolStripMenuItem WriteReadOpenSaveAndTotalToolStripMenuItem;
+        private ToolStripMenuItem RandomObjectToolStripMenuItem;
+        private ToolStripMenuItem Tutorial58ToolStripMenuItem;
     }
 }

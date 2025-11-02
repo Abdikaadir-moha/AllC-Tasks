@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AllC_Tasks;
 
 namespace Wholeproject
 {
@@ -18,6 +19,23 @@ namespace Wholeproject
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void Clearsbutton_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void Exitbutton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CalcEndingButton_Click(object sender, EventArgs e)
         {
             try
             {
@@ -51,35 +69,43 @@ namespace Wholeproject
                     else
                     {
                         // Invalid number of months was entered.
-                        MessageBox.Show("Invalid value for months.");
+                        messageLabel.Text = "Invalid value for months.";
                     }
                 }
                 else
                 {
                     // Invalid starting balance was entered.
-                    MessageBox.Show("Invalid value for starting balance.");
+                    messageLabel.Text = "Invalid value for starting balance.";
                 }
             }
             catch (Exception ex)
             {
                 // Catch any unexpected errors and show a message.
-                MessageBox.Show("An unexpected error occurred: " + ex.Message);
+                messageLabel.Text = "An unexpected error occurred: " + ex.Message;
             }
-
         }
 
-        private void Clearsbutton_Click(object sender, EventArgs e)
+        private void ClearBtn_Click(object sender, EventArgs e)
         {
             startingBalTextBox.Text = "";
             monthsTextBox.Text = "";
             endingBalanceLabel.Text = "";
             startingBalTextBox.Focus();
-
         }
 
-        private void Exitbutton_Click(object sender, EventArgs e)
+        private void EndingBalance_Load(object sender, EventArgs e)
         {
-            this.Close();
+            BackColor = AppTheme.BackgroundColor;
+            headerPanel.FillColor = AppTheme.HeaderColor;
+            titleLabel.ForeColor = AppTheme.HeaderTextColor;
+
+            CalcEndingButton.FillColor = AppTheme.PrimaryButtonColor;
+            CalcEndingButton.ForeColor = Color.White;
+
+            ClearBtn.FillColor = AppTheme.SecondaryButtonColor;
+            ClearBtn.ForeColor = Color.White;
+
+            messageLabel.ForeColor = AppTheme.TextColor;
         }
     }
 }

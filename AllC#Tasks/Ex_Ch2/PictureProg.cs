@@ -18,7 +18,7 @@ namespace Assignments1
         }
         private void PictureProg_Load(object sender, EventArgs e)
         {
-            Labeldate.Text = DateTime.Now.ToString("dd, MM , yyyy hh:mm:ss tt");
+           
         }
 
         private void PictureBox_Click(object sender, EventArgs e)

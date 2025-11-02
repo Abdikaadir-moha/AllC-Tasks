@@ -96,7 +96,7 @@
             resultListBox.Location = new Point(50, 119);
             resultListBox.Name = "resultListBox";
             resultListBox.Size = new Size(554, 302);
-            resultListBox.TabIndex = 11;
+            resultListBox.TabIndex = 2;
             // 
             // ClearBtn
             // 

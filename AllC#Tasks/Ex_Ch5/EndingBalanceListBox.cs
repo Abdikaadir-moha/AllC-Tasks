@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AllC_Tasks;
 
 namespace Wholeproject
 {
@@ -17,7 +18,17 @@ namespace Wholeproject
             InitializeComponent();
         }
 
-        private void CalculateButton_Click(object sender, EventArgs e)
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            startingBalTextBox.Text = "";
+            monthsTextBox.Text = "";
+            endingBalanceLabel.Text = "";
+            DetailListBox.Items.Clear();
+            startingBalTextBox.Focus();
+        }
+
+        private void CalcEndingButton_Click(object sender, EventArgs e)
         {
             try
             {
@@ -30,7 +41,7 @@ namespace Wholeproject
                 int count = 1;       // Loop counter, initialized with 1 
 
                 // Clear the detail list before adding new results (optional but recommended)
-                detailListBox.Items.Clear();
+                DetailListBox.Items.Clear();
 
                 // Get the starting balance. 
                 if (decimal.TryParse(startingBalTextBox.Text, out balance))
@@ -45,7 +56,7 @@ namespace Wholeproject
                             balance = balance + (INTEREST_RATE * balance);
 
                             // Display this month's ending balance.  
-                            detailListBox.Items.Add("The ending balance for month " +
+                            DetailListBox.Items.Add("The ending balance for month " +
                                 count + " is " + balance.ToString("c"));
 
                             // Add one to the loop counter. 
@@ -58,35 +69,35 @@ namespace Wholeproject
                     else
                     {
                         // Invalid number of months was entered. 
-                        MessageBox.Show("Invalid value for months.");
+                        messageLabel.Text = "Invalid value for months.";
                     }
                 }
                 else
                 {
                     // Invalid starting balance was entered. 
-                    MessageBox.Show("Invalid value for starting balance.");
+                    messageLabel.Text = "Invalid value for starting balance.";
                 }
             }
             catch (Exception ex)
             {
                 // Handle unexpected errors gracefully. 
-                MessageBox.Show("An unexpected error occurred: " + ex.Message);
+                messageLabel.Text = "An unexpected error occurred: " + ex.Message;
             }
-
         }
 
-        private void Clearsbutton_Click(object sender, EventArgs e)
+        private void EndingBalanceListBox_Load(object sender, EventArgs e)
         {
-            startingBalTextBox.Text = "";
-            monthsTextBox.Text = "";
-            endingBalanceLabel.Text = "";
-            detailListBox.Items.Clear();
-            startingBalTextBox.Focus();
-        }
+            BackColor = AppTheme.BackgroundColor;
+            headerPanel.FillColor = AppTheme.HeaderColor;
+            titleLabel.ForeColor = AppTheme.HeaderTextColor;
 
-        private void Exitbutton_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            CalcEndingButton.FillColor = AppTheme.PrimaryButtonColor;
+            CalcEndingButton.ForeColor = Color.White;
+
+            ClearBtn.FillColor = AppTheme.SecondaryButtonColor;
+            ClearBtn.ForeColor = Color.White;
+
+            messageLabel.ForeColor = AppTheme.TextColor;
         }
     }
 }

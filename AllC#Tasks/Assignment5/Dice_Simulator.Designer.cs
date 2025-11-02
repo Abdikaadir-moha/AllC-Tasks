@@ -110,11 +110,11 @@
             RollButton.FocusedColor = Color.Transparent;
             RollButton.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             RollButton.ForeColor = Color.White;
-            RollButton.Location = new Point(126, 435);
+            RollButton.Location = new Point(140, 445);
             RollButton.Name = "RollButton";
             RollButton.ShadowDecoration.CustomizableEdges = customizableEdges8;
             RollButton.Size = new Size(143, 58);
-            RollButton.TabIndex = 15;
+            RollButton.TabIndex = 0;
             RollButton.Text = "Roll Dice";
             RollButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             RollButton.Click += RollButton_Click;
@@ -133,11 +133,11 @@
             ClearBtn.FocusedColor = Color.Transparent;
             ClearBtn.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ClearBtn.ForeColor = Color.White;
-            ClearBtn.Location = new Point(353, 435);
+            ClearBtn.Location = new Point(367, 445);
             ClearBtn.Name = "ClearBtn";
             ClearBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
             ClearBtn.Size = new Size(156, 58);
-            ClearBtn.TabIndex = 19;
+            ClearBtn.TabIndex = 1;
             ClearBtn.Text = "Clear";
             ClearBtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             ClearBtn.Click += ClearBtn_Click;
@@ -149,6 +149,7 @@
             resultLabel.Name = "resultLabel";
             resultLabel.Size = new Size(3, 2);
             resultLabel.TabIndex = 20;
+            resultLabel.Text = null;
             // 
             // Dice_Simulator
             // 
